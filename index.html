@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>波士眼鏡 松山店</title>
+<title>波士眼鏡 松山店｜專業醫學驗光・頂級精品鏡架</title>
+<meta name="description" content="波士眼鏡松山店，由執照驗光師湯晨坐診，提供高階醫學驗光、Nikon・Zeiss・Hoya頂級鏡片、GUCCI・Vivienne Westwood等精品鏡架。台北松山區新東街28號，預約制服務。" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2318181b' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='6' cy='12' r='4'/%3E%3Ccircle cx='18' cy='12' r='4'/%3E%3Cpath d='M2 12h0M10 12h4M22 12h0'/%3E%3C/svg%3E" />
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
@@ -29,9 +31,9 @@
   }
   nav.scrolled .nav-logo { color: #18181b; }
   .nav-logo small { font-size: 11px; letter-spacing: 0.05em; opacity: 0.6; font-family: sans-serif; }
-  .nav-links { display: flex; gap: 32px; }
+  .nav-links { display: flex; gap: 24px; }
   .nav-links a {
-    font-size: 13px; letter-spacing: 0.12em; text-decoration: none;
+    font-size: 13px; letter-spacing: 0.1em; text-decoration: none;
     color: rgba(255,255,255,0.8); transition: color 0.3s, opacity 0.3s;
     font-family: 'Noto Sans TC', sans-serif;
   }
@@ -163,7 +165,7 @@
     opacity: 0.55; transition: opacity 0.4s;
     margin-bottom: 24px;
   }
-  .brands-grid:hover { opacity: 1; filter: none; }
+  .brands-grid:hover { opacity: 1; }
   .brand-item {
     background: white; padding: 20px 12px;
     font-size: 14px; letter-spacing: 0.15em; color: #18181b;
@@ -173,6 +175,78 @@
   }
   .brand-item:hover { background: #fafafa; }
   .brands-note { font-size: 14px; color: #a1a1aa; font-family: 'Noto Sans TC', sans-serif; font-weight: 300; }
+
+  /* ── REVIEWS ── */
+  #顧客好評 { background: #fafafa; }
+  .reviews-inner { max-width: 1100px; margin: 0 auto; }
+  .reviews-header { text-align: center; margin-bottom: 56px; }
+  .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .review-card {
+    background: white; border: 1px solid #f4f4f5; padding: 32px 28px;
+    position: relative; transition: box-shadow 0.3s;
+  }
+  .review-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.08); }
+  .review-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
+  .review-stars { color: #f59e0b; font-size: 15px; letter-spacing: 2px; }
+  .review-source {
+    font-size: 11px; color: #a1a1aa; letter-spacing: 0.1em;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .review-text {
+    font-size: 14px; color: #52525b; line-height: 1.9; margin-bottom: 20px;
+    font-family: 'Noto Sans TC', sans-serif; font-weight: 300;
+  }
+  .review-author {
+    display: flex; align-items: center; gap: 12px;
+    padding-top: 16px; border-top: 1px solid #f4f4f5;
+  }
+  .review-avatar {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: #e4e4e7; display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 600; color: #71717a; flex-shrink: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .review-name { font-size: 14px; color: #18181b; letter-spacing: 0.08em; display: block; }
+  .review-date { font-size: 12px; color: #a1a1aa; font-family: 'Noto Sans TC', sans-serif; }
+
+  /* ── HEALTH EDUCATION ── */
+  #眼睛衛教 { background: white; }
+  .health-inner { max-width: 1100px; margin: 0 auto; }
+  .health-header { text-align: center; margin-bottom: 56px; }
+  .health-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .health-card {
+    border: 1px solid #e4e4e7; padding: 36px 28px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: default;
+  }
+  .health-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.06); transform: translateY(-3px); }
+  .health-icon { font-size: 28px; margin-bottom: 16px; line-height: 1; }
+  .health-title {
+    font-size: 17px; letter-spacing: 0.08em; color: #18181b;
+    margin-bottom: 8px; font-weight: 500;
+  }
+  .health-subtitle {
+    font-size: 12px; color: #a1a1aa; letter-spacing: 0.15em;
+    text-transform: uppercase; margin-bottom: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-bottom: 16px; border-bottom: 1px solid #f4f4f5;
+  }
+  .health-list { list-style: none; padding: 0; }
+  .health-list li {
+    font-size: 13.5px; color: #52525b; line-height: 1.85; padding: 7px 0;
+    border-bottom: 1px solid #fafafa;
+    font-family: 'Noto Sans TC', sans-serif; font-weight: 300;
+    display: flex; gap: 10px; align-items: flex-start;
+  }
+  .health-list li:last-child { border-bottom: none; }
+  .health-list li::before { content: '—'; color: #d4d4d8; flex-shrink: 0; margin-top: 1px; }
+  .health-tip {
+    margin-top: 20px; padding: 14px 16px;
+    background: #fafafa; border-left: 2px solid #e4e4e7;
+    font-size: 13px; color: #71717a; line-height: 1.75;
+    font-family: 'Noto Sans TC', sans-serif; font-weight: 300;
+  }
+  .health-tip strong { color: #18181b; font-weight: 500; }
 
   /* ── KNOWLEDGE ── */
   #視光知識庫 { background: #18181b; color: #e4e4e7; }
@@ -218,8 +292,7 @@
   .k-item:hover .k-check::after { color: white; }
   .k-item-title {
     font-size: 15px; color: #d4d4d8; letter-spacing: 0.05em;
-    margin-bottom: 8px; font-weight: 500;
-    transition: color 0.2s;
+    margin-bottom: 8px; font-weight: 500; transition: color 0.2s;
   }
   .k-item:hover .k-item-title { color: white; }
   .k-item-desc {
@@ -230,13 +303,13 @@
   /* ── FOOTER ── */
   #聯絡我們 { background: #09090b; color: #71717a; padding: 72px 32px 32px; }
   .footer-inner { max-width: 1100px; margin: 0 auto; }
-  .footer-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; margin-bottom: 48px; }
+  .footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
   .footer-brand-name {
     display: flex; align-items: center; gap: 8px;
     font-size: 18px; color: white; letter-spacing: 0.2em; margin-bottom: 20px;
   }
   .footer-brand-name small { font-size: 10px; opacity: 0.6; font-family: sans-serif; }
-  .footer-desc { font-size: 13px; line-height: 1.9; font-family: 'Noto Sans TC', sans-serif; font-weight: 300; }
+  .footer-desc { font-size: 13px; line-height: 1.9; font-family: 'Noto Sans TC', sans-serif; font-weight: 300; margin-bottom: 24px; }
   .footer-heading {
     font-size: 11px; color: white; letter-spacing: 0.25em;
     text-transform: uppercase; margin-bottom: 20px;
@@ -249,6 +322,12 @@
     font-family: 'Noto Sans TC', sans-serif; font-weight: 300;
   }
   .footer-contact-list .icon { flex-shrink: 0; opacity: 0.6; }
+  .footer-map {
+    margin-top: 20px; width: 100%; height: 180px;
+    border: 0; opacity: 0.8; transition: opacity 0.3s;
+    display: block;
+  }
+  .footer-map:hover { opacity: 1; }
   .footer-reserve-text {
     font-size: 13px; line-height: 1.8; margin-bottom: 20px;
     font-family: 'Noto Sans TC', sans-serif; font-weight: 300;
@@ -271,6 +350,9 @@
   .footer-bottom a:hover { opacity: 1; color: #a1a1aa; }
 
   /* ── RESPONSIVE ── */
+  @media (max-width: 1024px) {
+    .health-grid { grid-template-columns: repeat(2, 1fr); }
+  }
   @media (max-width: 900px) {
     .nav-links { display: none; }
     .nav-hamburger { display: block; }
@@ -278,7 +360,7 @@
     .philosophy-img { height: 320px; }
     .steps-grid { grid-template-columns: repeat(2, 1fr); }
     .brands-grid { grid-template-columns: repeat(3, 1fr); }
-    .brand-item:last-child { grid-column: span 1; }
+    .reviews-grid { grid-template-columns: repeat(2, 1fr); }
     .knowledge-layout { grid-template-columns: 1fr; }
     .k-panel { min-height: auto; }
     .footer-grid { grid-template-columns: 1fr; gap: 32px; }
@@ -287,6 +369,8 @@
     section { padding: 72px 20px; }
     .steps-grid { grid-template-columns: 1fr; }
     .brands-grid { grid-template-columns: repeat(2, 1fr); }
+    .reviews-grid { grid-template-columns: 1fr; }
+    .health-grid { grid-template-columns: 1fr; }
     nav { padding: 20px; }
     nav.scrolled { padding: 14px 20px; }
   }
@@ -307,6 +391,8 @@
     <a href="#品牌理念">品牌理念</a>
     <a href="#專業驗光">專業驗光</a>
     <a href="#精選鏡框">精選鏡框</a>
+    <a href="#顧客好評">顧客好評</a>
+    <a href="#眼睛衛教">衛教專區</a>
     <a href="#視光知識庫">視光知識庫</a>
     <a href="#聯絡我們">聯絡我們</a>
   </div>
@@ -317,6 +403,8 @@
     <a href="#品牌理念" onclick="closeMobile()">品牌理念</a>
     <a href="#專業驗光" onclick="closeMobile()">專業驗光</a>
     <a href="#精選鏡框" onclick="closeMobile()">精選鏡框</a>
+    <a href="#顧客好評" onclick="closeMobile()">顧客好評</a>
+    <a href="#眼睛衛教" onclick="closeMobile()">衛教專區</a>
     <a href="#視光知識庫" onclick="closeMobile()">視光知識庫</a>
     <a href="#聯絡我們" onclick="closeMobile()">聯絡我們</a>
   </div>
@@ -346,7 +434,7 @@
       <div class="section-title">不僅是眼鏡，<br>更是您探索世界的精密儀器。</div>
       <p>波士眼鏡行創立的初衷，源自於對「視覺品質」的絕對堅持。我們認為，一副好的眼鏡不應只是矯正視力的工具，而是結合醫學視光、人體工學與個人美學的工藝品。</p>
       <p>我們使用進口專業驗光設備，由具備國家考試合格的資深驗光師親自為您服務，從用眼習慣分析到精準的雙眼視功能檢查，確保每一副交付到您手中的眼鏡，都能帶來前所未有的舒適與清晰。</p>
-      <div class="philosophy-sig"><span>創辦人 暨 驗光師</span></div>
+      <div class="philosophy-sig"><span>湯晨 驗光師｜創辦人</span></div>
     </div>
   </div>
 </section>
@@ -392,11 +480,271 @@
       <div class="brand-item">BOSS</div>
       <div class="brand-item" style="text-align:center;line-height:1.4;font-size:13px;">Vivienne<br>Westwood</div>
       <div class="brand-item">GUCCI</div>
-      <div class="brand-item" style="font-size:12px;text-align:center;">Ray Ban</div>
-     
+      <div class="brand-item" style="font-size:12px;text-align:center;">Reykjavik<br>Eyes</div>
       <div class="brand-item">Vassflir</div>
     </div>
     <p class="brands-note">與全球同步，嚴選頂級鈦金屬、手工板料與卓越結構設計的設計師品牌。</p>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="顧客好評">
+  <div class="reviews-inner">
+    <div class="reviews-header">
+      <div class="section-label">Customer Reviews</div>
+      <div class="section-title">顧客真實評價</div>
+      <p style="color:#52525b;font-size:15px;font-family:'Noto Sans TC',sans-serif;font-weight:300;margin-top:-20px;line-height:2;">
+        <span style="font-size:22px;color:#f59e0b;letter-spacing:2px;">★★★★★</span>&nbsp;
+        <strong style="font-size:20px;color:#18181b;">4.9</strong>
+        <span style="color:#a1a1aa;">／5 &nbsp;·&nbsp; 28 則 Google 評論</span>
+      </p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-source">Google 評論</div>
+        </div>
+        <p class="review-text">年輕的老闆專業又細心，跟我以前配眼鏡的體驗好不一樣！仔細又貼心讓人感受好放心，也有好多年輕人喜歡的款式，還有咖啡可以喝☕️真的來對了！</p>
+        <div class="review-author">
+          <div class="review-avatar">S</div>
+          <div>
+            <span class="review-name">Shiuan</span>
+            <span class="review-date">2 個月前</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-source">Google 評論 · 在地嚮導</div>
+        </div>
+        <p class="review-text">大推老闆的專業與細心！在調整眼鏡上非常有一套，會反覆確認配戴的舒適度，這種客製化的服務真的是連鎖眼鏡行比不上的。重點是價格也比常見的品牌便宜，CP值極高，配鏡過程讓人很安心。</p>
+        <div class="review-author">
+          <div class="review-avatar">C</div>
+          <div>
+            <span class="review-name">chiu bill</span>
+            <span class="review-date">2 個月前</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-source">Google 評論</div>
+        </div>
+        <p class="review-text">眼鏡框種類超多，還有特別的透明框，驗光的速度快！也不會讓人覺得是隨便驗驗的，還會特別幫客人挑適合臉型的鏡框！超優質好店！極推👍👍👍</p>
+        <div class="review-author">
+          <div class="review-avatar">陳</div>
+          <div>
+            <span class="review-name">陳鴻升</span>
+            <span class="review-date">2 個月前</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-source">Google 評論</div>
+        </div>
+        <p class="review-text">一對年輕夫妻經營的小店，眼鏡款式好看，驗光也專業，價格合理，松山配眼鏡的好選擇！</p>
+        <div class="review-author">
+          <div class="review-avatar">璇</div>
+          <div>
+            <span class="review-name">璇</span>
+            <span class="review-date">2 個月前</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-source">Google 評論 · 在地嚮導</div>
+        </div>
+        <p class="review-text">小小的店，但鏡框都很好看，會不小心選擇困難，但老闆非常有耐心👍🏻</p>
+        <div class="review-author">
+          <div class="review-avatar">M</div>
+          <div>
+            <span class="review-name">MayMay</span>
+            <span class="review-date">2 個月前</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-source">Google 評論 · 在地嚮導</div>
+        </div>
+        <p class="review-text">我有位老邁兼輕度失智的老母親，陪媽媽來這間配眼鏡，我媽來兩、三次了，但我是第一次來，看到老闆的耐心陪我媽聊天（我媽很難應付）及專業，特別上來留言給星星，很棒的店家，祝老闆生意興隆。</p>
+        <div class="review-author">
+          <div class="review-avatar">唐</div>
+          <div>
+            <span class="review-name">唐美蘭</span>
+            <span class="review-date">2 年前</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HEALTH EDUCATION -->
+<section id="眼睛衛教">
+  <div class="health-inner">
+    <div class="health-header">
+      <div class="section-label">Eye Health Education</div>
+      <div class="section-title">眼睛保健衛教專區</div>
+      <p style="color:#52525b;font-size:15px;font-family:'Noto Sans TC',sans-serif;font-weight:300;max-width:560px;margin:0 auto;line-height:1.9;">
+        由專業驗光師整理，幫助您建立正確的護眼觀念，守護視力健康。
+      </p>
+    </div>
+    <div class="health-grid">
+
+      <!-- Card 1: 近視防控 -->
+      <div class="health-card">
+        <div class="health-icon">👁️</div>
+        <div class="health-title">近視防控</div>
+        <div class="health-subtitle">Myopia Control</div>
+        <ul class="health-list">
+          <li>近視成因：遺傳體質＋後天長時間近距離用眼共同影響</li>
+          <li>每日戶外活動至少 2 小時，自然光可刺激多巴胺分泌，有效延緩近視加深</li>
+          <li>20-20-20 法則：每 20 分鐘望向 20 英尺（約 6 公尺）外的物體，持續 20 秒</li>
+          <li>閱讀或使用 3C 時，距離保持 30 公分以上</li>
+          <li>角膜塑形鏡（Ortho-K）：夜戴型設計，可控制近視加深速度約 50%</li>
+          <li>近視度數每年增加超過 75 度，建議積極討論控制方案</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>近視一旦形成無法逆轉，但正確的習慣與定期追蹤能顯著減緩惡化。</div>
+      </div>
+
+      <!-- Card 2: 乾眼症防護 -->
+      <div class="health-card">
+        <div class="health-icon">💧</div>
+        <div class="health-title">乾眼症防護</div>
+        <div class="health-subtitle">Dry Eye Prevention</div>
+        <ul class="health-list">
+          <li>常見症狀：乾澀灼熱、異物感、眼紅、視力短暫模糊、畏光</li>
+          <li>使用 3C 時眨眼次數會從每分鐘 15 次降至 5 次，需有意識地多眨眼</li>
+          <li>選用無防腐劑人工淚液，長期使用較不刺激眼睛</li>
+          <li>冷氣出風口避免直吹眼睛，辦公室可使用加濕器維持濕度</li>
+          <li>熱敷眼皮每次 10–15 分鐘，可促進瞼板腺油脂分泌，改善蒸發型乾眼</li>
+          <li>Omega-3 脂肪酸（深海魚油、亞麻籽）有助改善淚液品質</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>長期乾眼若不處理，可能影響角膜健康，建議及早評估淚液功能。</div>
+      </div>
+
+      <!-- Card 3: 兒童視力保健 -->
+      <div class="health-card">
+        <div class="health-icon">🧒</div>
+        <div class="health-title">兒童視力保健</div>
+        <div class="health-subtitle">Children's Vision</div>
+        <ul class="health-list">
+          <li>視力發育黃金期在 8 歲以前，弱視若未及時治療，成年後難以改善</li>
+          <li>學齡前（3–6 歲）應至少進行一次完整視力篩查</li>
+          <li>假性近視：由睫狀肌過度緊繃造成，散瞳後度數會消失，勿急於配眼鏡</li>
+          <li>6 歲以下驗光建議使用睫狀肌麻痺劑（散瞳），才能取得真實度數</li>
+          <li>3C 使用建議：2 歲以下避免使用；2–5 歲每日不超過 1 小時；學齡兒童每 30 分鐘休息 10 分鐘</li>
+          <li>均衡飲食補充葉黃素（深綠色蔬菜）、維生素 A（紅蘿蔔）有益眼睛發育</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>孩子通常不會主動說「看不清楚」，定期檢查比等待症狀出現更重要。</div>
+      </div>
+
+      <!-- Card 4: 老花眼正確認識 -->
+      <div class="health-card">
+        <div class="health-icon">🔬</div>
+        <div class="health-title">老花眼正確認識</div>
+        <div class="health-subtitle">Presbyopia</div>
+        <ul class="health-list">
+          <li>老花眼是眼睛水晶體自然老化失去彈性，通常 40–45 歲開始出現</li>
+          <li>閱讀距離越拿越遠、光線不足時特別看不清楚，是典型早期症狀</li>
+          <li>老花眼與近視度數變淺無關，兩者是不同機制</li>
+          <li>漸進多焦鏡片可同時矯正遠視、中距離與近距離，外觀與一般眼鏡相同</li>
+          <li>漸進鏡初戴適應期約 1–2 週，可能出現短暫頭暈，屬正常現象</li>
+          <li>不建議自行購買老花眼藥水或現成老花眼鏡，應接受完整驗光後配鏡</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>每位老花眼患者的度數與用眼需求不同，個人化驗配才能確保舒適度。</div>
+      </div>
+
+      <!-- Card 5: 正確配鏡與適應 -->
+      <div class="health-card">
+        <div class="health-icon">👓</div>
+        <div class="health-title">正確配鏡與適應</div>
+        <div class="health-subtitle">Prescription & Adaptation</div>
+        <ul class="health-list">
+          <li>新眼鏡適應期：單焦點通常 3–7 天；漸進多焦鏡片約 1–2 週</li>
+          <li>若戴新眼鏡超過兩週仍頭暈或不適，應回診重新確認度數與參數</li>
+          <li>鏡框歪斜、下滑會直接影響視覺品質，定期至門市免費調整</li>
+          <li>瞳距（PD）測量誤差超過 2mm，就可能造成視覺不舒適或頭痛</li>
+          <li>頂點距離（Vertex Distance）：高度數者鏡框緊貼臉部，有效度數才最準確</li>
+          <li>配鏡後出現持續頭痛、複視、視野缺損，應立即回診</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>眼鏡不是配完就結束，後續的調整與追蹤同樣重要。</div>
+      </div>
+
+      <!-- Card 6: 眼鏡保養指南 -->
+      <div class="health-card">
+        <div class="health-icon">✨</div>
+        <div class="health-title">眼鏡保養指南</div>
+        <div class="health-subtitle">Eyewear Care</div>
+        <ul class="health-list">
+          <li>清潔前先用清水沖洗，去除灰塵與砂粒，再用超細纖維布輕輕擦拭</li>
+          <li>乾擦鏡片（尤其有抗反射鍍膜）容易造成細微刮痕，務必先沖水</li>
+          <li>避免將眼鏡放置於高溫環境（車內儀表台、溫泉旁），鍍膜易受損</li>
+          <li>雙手取戴眼鏡，單手習慣會造成鏡框逐漸歪斜變形</li>
+          <li>游泳、泡溫泉時請取下眼鏡，氯水與高溫會破壞鏡片鍍膜</li>
+          <li>定期至門市更換鼻墊、鎖緊螺絲，維持最佳配戴狀態（建議每 6 個月）</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>鏡片鍍膜若出現大量龜裂紋路，代表鍍膜壽命已到，建議重新配鏡。</div>
+      </div>
+
+      <!-- Card 7: 驗光頻率建議 -->
+      <div class="health-card">
+        <div class="health-icon">📅</div>
+        <div class="health-title">驗光頻率建議</div>
+        <div class="health-subtitle">When to Get Checked</div>
+        <ul class="health-list">
+          <li>18–40 歲（度數穩定者）：每 1–2 年驗光一次</li>
+          <li>18 歲以下（度數仍在變化）：每 6 個月驗光並追蹤近視控制成效</li>
+          <li>40 歲以上：建議每年驗光，同時評估老花與眼壓狀況</li>
+          <li>配戴隱形眼鏡者：每年進行完整驗光，同時評估角膜健康</li>
+          <li>有糖尿病、高血壓等慢性病患者：建議縮短驗光間隔，留意眼底變化</li>
+          <li>出現視力模糊、閃光、飛蚊突增、視野缺損，應立即就診</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>定期驗光不只是配眼鏡，也是早期發現眼睛疾病的重要機會。</div>
+      </div>
+
+      <!-- Card 8: 螢幕護眼衛教 -->
+      <div class="health-card">
+        <div class="health-icon">💻</div>
+        <div class="health-title">螢幕護眼衛教</div>
+        <div class="health-subtitle">Digital Eye Care</div>
+        <ul class="health-list">
+          <li>螢幕距離：桌上型電腦保持 50–70 公分；手機保持 30 公分以上</li>
+          <li>螢幕高度：視線應落在螢幕中上 1/3 處，避免長期仰頭或俯頭</li>
+          <li>螢幕亮度應與環境亮度相近，避免在黑暗中使用高亮度螢幕</li>
+          <li>開啟螢幕的夜間模式（暖色調），可降低短波藍光對睡眠的影響</li>
+          <li>數位紓壓鏡片（Anti-Fatigue）可減輕看近物時睫狀肌的調節負擔</li>
+          <li>辦公室建議維持室內照度 500 Lux 以上，避免螢幕與環境對比過強</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>數位視覺症候群（CVS）正影響越來越多上班族，正確的環境設置是第一步。</div>
+      </div>
+
+      <!-- Card 9: 隱形眼鏡衛教 -->
+      <div class="health-card">
+        <div class="health-icon">🌙</div>
+        <div class="health-title">隱形眼鏡衛教</div>
+        <div class="health-subtitle">Contact Lens Care</div>
+        <ul class="health-list">
+          <li>戴取前務必洗手，並以無棉絮的乾淨紙巾或毛巾擦乾，水分會稀釋藥水</li>
+          <li>日拋即日丟，月拋超過期限勿繼續配戴，避免蛋白質堆積造成感染</li>
+          <li>配戴隱形眼鏡後不建議游泳、沖澡，水中病菌（尤其棘阿米巴）可導致嚴重角膜炎</li>
+          <li>每日配戴時間建議不超過 8–10 小時，讓角膜有充分呼吸時間</li>
+          <li>出現紅眼、疼痛、分泌物增加，應立即取下鏡片並就診</li>
+          <li>乾眼症患者配戴前請諮詢驗光師，選擇高含水量或矽水膠材質</li>
+        </ul>
+        <div class="health-tip"><strong>驗光師提醒：</strong>隱形眼鏡是醫療器材，請遵照驗光師指示配戴，勿輕忽眼睛不適的警訊。</div>
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -413,6 +761,8 @@
         <button class="k-tab active" onclick="switchTab('lenses', this)">鏡片設計與選擇</button>
         <button class="k-tab" onclick="switchTab('materials', this)">材質與折射率</button>
         <button class="k-tab" onclick="switchTab('coatings', this)">特殊鍍膜與功能</button>
+        <button class="k-tab" onclick="switchTab('myopia', this)">近視控制專區</button>
+        <button class="k-tab" onclick="switchTab('care', this)">眼鏡保養指南</button>
       </div>
       <div>
         <div class="k-panel active" id="panel-lenses">
@@ -435,7 +785,14 @@
             <div class="k-check"></div>
             <div>
               <div class="k-item-title">數位紓壓鏡片 (Anti-Fatigue)</div>
-              <div class="k-item-desc">針對現代人長時間使用手機、電腦的「數位視覺疲勞」所設計。鏡片下方帶有微幅的度數遞減（ADD），能有效減輕眼睛睫狀肌在看近物時的調節負擔。</div>
+              <div class="k-item-desc">針對現代人長時間使用手機、電腦的「數位視覺疲勞」所設計。鏡片下方帶有微幅的度數遞增（ADD），能有效減輕眼睛睫狀肌在看近物時的調節負擔，適合 25–45 歲辦公族。</div>
+            </div>
+          </div>
+          <div class="k-item">
+            <div class="k-check"></div>
+            <div>
+              <div class="k-item-title">雙焦點鏡片 (Bifocal)</div>
+              <div class="k-item-desc">分為上下兩個區域，上方用於看遠，下方用於看近，中間有一條明顯分界線。適合對價格敏感、不在意外觀分界線的老花眼患者。</div>
             </div>
           </div>
         </div>
@@ -443,38 +800,84 @@
           <h4>材質與折射率</h4>
           <div class="k-item"><div class="k-check"></div><div>
             <div class="k-item-title">什麼是折射率？</div>
-            <div class="k-item-desc">折射率代表鏡片彎曲光線的能力。數值越高，在相同度數下鏡片可以做得越薄、越輕。常見的折射率有 1.50、1.56、1.60、1.67、1.74。</div>
+            <div class="k-item-desc">折射率代表鏡片彎曲光線的能力。數值越高，在相同度數下鏡片可以做得越薄、越輕。常見的折射率有 1.50、1.56、1.60、1.67、1.74。折射率越高，阿貝數（色散值）通常越低，高度數配戴者仍應選擇阿貝數較高的品牌。</div>
           </div></div>
           <div class="k-item"><div class="k-check"></div><div>
             <div class="k-item-title">1.50 標準鏡片</div>
-            <div class="k-item-desc">光學品質極佳（阿貝數高，色散低），適合低度數（近視 300 度以內）且對厚度要求不高的配戴者。</div>
+            <div class="k-item-desc">光學品質極佳（阿貝數高達 58，色散低），適合低度數（近視 300 度以內）且對厚度要求不高的配戴者。是光學性能最好的基礎材質。</div>
           </div></div>
           <div class="k-item"><div class="k-check"></div><div>
             <div class="k-item-title">1.60 輕薄 / 韌性鏡片</div>
-            <div class="k-item-desc">材質堅韌，非常適合無框或半框眼鏡。厚度比 1.50 薄約 20%，適合中度近視（300–600 度）。</div>
+            <div class="k-item-desc">材質堅韌，非常適合無框或半框眼鏡。厚度比 1.50 薄約 20%，適合中度近視（300–600 度）。阿貝數約 36–42，日常使用視覺品質良好。</div>
           </div></div>
           <div class="k-item"><div class="k-check"></div><div>
-            <div class="k-item-title">1.67 / 1.74 超薄鏡片</div>
-            <div class="k-item-desc">專為高度數（600度以上）設計。能大幅減少鏡片邊緣厚度，提升美觀度。</div>
+            <div class="k-item-title">1.67 超薄鏡片</div>
+            <div class="k-item-desc">專為中高度數（500–800度）設計，比 1.60 再薄約 15%。適合追求美觀的配戴者，邊緣厚度明顯改善。阿貝數約 32，需搭配優質品牌減少色散影響。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">1.74 極薄鏡片</div>
+            <div class="k-item-desc">目前商業化鏡片中最薄的選擇，專為高度數（800 度以上）設計，大幅減少邊緣厚度提升美觀。建議搭配 Nikon、Zeiss、Hoya 等頂級品牌，以確保最佳視覺品質。</div>
           </div></div>
         </div>
         <div class="k-panel" id="panel-coatings">
           <h4>特殊鍍膜與功能</h4>
           <div class="k-item"><div class="k-check"></div><div>
             <div class="k-item-title">抗藍光鍍膜 / 濾藍光材質</div>
-            <div class="k-item-desc">能過濾 3C 產品螢幕發出的有害短波藍光（380–440nm），減少刺眼感與視覺疲勞，並有助於保護黃斑部健康。</div>
+            <div class="k-item-desc">能過濾 3C 產品螢幕發出的有害短波藍光（380–440nm），減少刺眼感與視覺疲勞，並有助於保護黃斑部長期健康。建議長時間使用電腦或手機者選用。</div>
           </div></div>
           <div class="k-item"><div class="k-check"></div><div>
-            <div class="k-item-title">變色鏡片</div>
-            <div class="k-item-desc">鏡片含有特殊感光分子，在室內完全透明，遇到戶外紫外線照射時會自動變深色，同時具備一般眼鏡與太陽眼鏡的功能，提供全天候防護。</div>
+            <div class="k-item-title">抗反射增透鍍膜 (AR Coating)</div>
+            <div class="k-item-desc">有效消除鏡片表面的眩光與反射，提升夜間行車安全性與透光率。讓對方看您眼睛更自然，視覺上也更清晰。幾乎所有品質眼鏡都應具備此鍍膜。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">變色鏡片 (Photochromic)</div>
+            <div class="k-item-desc">鏡片含有特殊感光分子，在室內完全透明，遇到戶外紫外線照射時自動變深色，同時具備一般眼鏡與太陽眼鏡的功能，提供全天候 UV 防護。</div>
           </div></div>
           <div class="k-item"><div class="k-check"></div><div>
             <div class="k-item-title">偏光鏡片 (Polarized)</div>
-            <div class="k-item-desc">鏡片內含如同百葉窗結構的偏光膜，能有效阻擋來自水面、雪地或路面反射的刺眼眩光。是駕駛、釣魚、滑雪等戶外活動的最佳選擇。</div>
+            <div class="k-item-desc">鏡片內含如同百葉窗結構的偏光膜，有效阻擋來自水面、雪地或路面反射的刺眼眩光。是駕駛、釣魚、滑雪等戶外活動的最佳選擇，視野清晰度大幅提升。</div>
           </div></div>
           <div class="k-item"><div class="k-check"></div><div>
-            <div class="k-item-title">駕車鍍膜</div>
-            <div class="k-item-desc">透過特殊鍍膜技術有效降低反射並減少眩光，避免對向車燈干擾視線，為您帶來最佳的行車視覺體驗。</div>
+            <div class="k-item-title">疏水疏油鍍膜</div>
+            <div class="k-item-desc">鏡片表面具奈米等級疏水疏油特性，指紋、油脂、水珠都難以附著，清潔更輕鬆，鍍膜壽命也更持久。高品質頂層鍍膜的重要指標之一。</div>
+          </div></div>
+        </div>
+        <div class="k-panel" id="panel-myopia">
+          <h4>近視控制專區</h4>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">角膜塑形鏡 (Ortho-K)</div>
+            <div class="k-item-desc">夜間配戴的硬式透氧隱形眼鏡，睡眠時透過鏡片壓力塑造角膜形狀，白天可裸眼視物。研究顯示可減緩近視加深速度約 30–60%，適合 8–18 歲度數仍在增加的青少年。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">多焦點隱形眼鏡 (DIMS / HALT)</div>
+            <div class="k-item-desc">採用特殊光學設計（如 Hoya MiYOSMART、Zeiss MyoCare），鏡片不同區域提供不同焦點，讓周邊視網膜成像落在視網膜前方，從而減緩眼軸增長。日拋或月拋設計，適合日常活動配戴。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">低濃度阿托平眼藥水 (Atropine 0.01%)</div>
+            <div class="k-item-desc">由眼科醫師處方使用，每晚睡前點一滴，臨床研究顯示可減緩近視加深約 50–70%。副作用輕微（輕微畏光），建議搭配戶外活動與正確用眼習慣共同使用。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">何時開始近視控制？</div>
+            <div class="k-item-desc">建議在 10 歲以前、度數每年增加超過 50–75 度時即開始評估控制方案。越早介入效果越好。波士眼鏡提供完整的近視控制諮詢與後續追蹤服務。</div>
+          </div></div>
+        </div>
+        <div class="k-panel" id="panel-care">
+          <h4>眼鏡保養指南</h4>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">日常清潔正確步驟</div>
+            <div class="k-item-desc">① 用清水沖洗鏡片表面，去除灰塵與砂粒 → ② 滴一滴中性洗碗精或鏡片清潔液 → ③ 輕柔搓洗前後面 → ④ 清水沖淨 → ⑤ 用超細纖維布輕壓擦乾。切勿以衛生紙或衣角乾擦。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">鍍膜保護注意事項</div>
+            <div class="k-item-desc">避免鏡片接觸有機溶劑（酒精、丙酮、香水）；不可用熱水（超過 60°C）清洗；鏡片勿面朝下放置於桌面。若鍍膜出現大量龜裂，代表壽命已到，應更換鏡片。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">鏡框日常維護</div>
+            <div class="k-item-desc">雙手取戴眼鏡，避免鏡框逐漸歪斜；不配戴時放入眼鏡盒保護；避免高溫環境（車內儀表台可達 80°C 以上）；定期至門市調整鼻墊與鏡腳，建議每 3–6 個月一次。</div>
+          </div></div>
+          <div class="k-item"><div class="k-check"></div><div>
+            <div class="k-item-title">眼鏡使用年限參考</div>
+            <div class="k-item-desc">鏡片鍍膜壽命約 1.5–3 年，視使用與清潔習慣而定；鏡框金屬部分耐久性高，但鼻墊、螺絲建議每年更換。即使度數未變，鏡片老化也會影響光學品質與舒適度。</div>
           </div></div>
         </div>
       </div>
@@ -495,19 +898,36 @@
           波士眼鏡<small>松山店</small>
         </div>
         <p class="footer-desc">致力於提供最高規格的醫學驗光與頂級鏡片驗配服務。為追求極致視覺與品味的您，打造專屬的清晰視界。</p>
-      </div>
-      <div>
         <div class="footer-heading">聯絡資訊 Contact</div>
         <ul class="footer-contact-list">
           <li><span class="icon">📍</span><span>台北市松山區新東街28號1樓</span></li>
           <li><span class="icon">📞</span><span>02-2753-0853</span></li>
           <li><span class="icon">🕐</span><span>週一至週六 10:00 – 20:00<br><span style="font-size:12px;opacity:0.7;">週日 10:00 – 15:00</span></span></li>
         </ul>
+        <iframe
+          class="footer-map"
+          src="https://maps.google.com/maps?q=台北市松山區新東街28號1樓&output=embed&hl=zh-TW&z=17"
+          allowfullscreen=""
+          loading="lazy"
+          title="波士眼鏡松山店地圖">
+        </iframe>
       </div>
       <div>
         <div class="footer-heading">預約服務 Reservation</div>
         <p class="footer-reserve-text">為確保每位顧客享有最完整的 60 分鐘高階驗光流程，建議您事先透過電話或線上系統預約。</p>
         <a href="https://lin.ee/JzoTQXj" target="_blank" rel="noopener noreferrer" class="btn-outline">立即線上預約</a>
+      </div>
+      <div>
+        <div class="footer-heading">服務項目 Services</div>
+        <ul class="footer-contact-list">
+          <li><span class="icon">◇</span><span>高階醫學驗光</span></li>
+          <li><span class="icon">◇</span><span>雙眼視功能評估</span></li>
+          <li><span class="icon">◇</span><span>近視控制諮詢</span></li>
+          <li><span class="icon">◇</span><span>漸進多焦鏡片驗配</span></li>
+          <li><span class="icon">◇</span><span>頂級品牌鏡架選配</span></li>
+          <li><span class="icon">◇</span><span>兒童視力評估</span></li>
+          <li><span class="icon">◇</span><span>眼鏡調整與保養</span></li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
@@ -521,17 +941,14 @@
 </footer>
 
 <script>
-  // Copyright year
   document.getElementById('copyright').textContent =
     '© ' + new Date().getFullYear() + ' 波士眼鏡松山店. All rights reserved.';
 
-  // Navbar scroll
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 50);
   });
 
-  // Hamburger menu
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobileMenu');
   hamburger.addEventListener('click', () => {
@@ -543,7 +960,6 @@
     mobileMenu.classList.remove('open');
   }
 
-  // Knowledge tabs
   function switchTab(id, btn) {
     document.querySelectorAll('.k-tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.k-panel').forEach(p => p.classList.remove('active'));
